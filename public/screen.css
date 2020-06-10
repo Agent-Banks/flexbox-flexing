@@ -1,4 +1,5 @@
 @import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Playfair');
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,9 +10,10 @@ html {
 
 body {
   min-height: 100%;
-  background-color: #16a2de;
+  background-color: rgb(0, 127, 151);
   padding-right: 4rem;
   padding-left: 4rem;
+  font-family: 'Playfair', sans-serif;
 }
 
 .kittens-of-day, .kitten-main-text {
@@ -29,32 +31,49 @@ body {
 .kittens-of-day h3 {
   text-align: left;
   margin-top: .4rem;
-  color: #333c41;
+  color: rgb(57, 74, 119);
+  font-size: 1.25rem;
+}
+
+.kittens-of-day li {
+  padding: .1rem;
 }
 
 .kittens-of-day ul {
   margin: 0;
   padding-bottom: 1rem;
-  font-size: 1rem;
+}
+
+.kitten-main-text h2 {
+  margin: .3rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  color: rgb(57, 74, 119);
+}
+
+.kitten-main-text p {
+  margin: .3rem;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
 }
 
 .kitten-main-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 2rem;
+  padding-top: .8rem;
   padding-right: 2rem;
   padding-left: 1rem;
 }
 
 main {
-  background-color: #c9cbcb;
+  background-color: rgb(216, 240, 241);
   display: flex;
   height: 100%;
 }
 
 header {
-  background-color: #c9cacb;
+  background-color: rgb(216, 240, 241);
 }
 
 header h1 {
@@ -62,12 +81,13 @@ header h1 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 1.2rem;
-  color: #333c41;
+  padding-top: 1.5rem;
+  color: rgb(57, 74, 119);
 }
 
 header ul {
   list-style: none;
-  background-color: #1b81c1;
+  background-color: rgb(0, 183, 207);
   padding: .5rem;
   display: flex;
   flex-direction: row;
@@ -85,7 +105,7 @@ header ul li a {
 
 footer ul {
   list-style: none;
-  background-color: #e9d8e0;
+  background-color: rgb(205, 205, 205);
   padding: .5rem;
   display: flex;
   flex-direction: row;
