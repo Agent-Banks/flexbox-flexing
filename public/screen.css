@@ -14,20 +14,43 @@ body {
   padding-left: 4rem;
 }
 
+.kittens-of-day, .kitten-main-text {
+  height: 100%;
+}
+
 .kittens-of-day {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 2rem;
+  padding: .3rem;
+  border: solid #0b7d96;
+  margin: 1rem;
+}
+
+.kittens-of-day h3 {
+  text-align: left;
+  margin-top: .4rem;
+  color: #333c41;
+}
+
+.kittens-of-day ul {
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .kitten-main-text {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 1rem;
 }
 
 main {
   background-color: #c9cbcb;
+  display: flex;
+  height: 100%;
 }
 
 header {
@@ -39,7 +62,7 @@ header h1 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 1.2rem;
-  color: #57656c;
+  color: #333c41;
 }
 
 header ul {
@@ -67,6 +90,7 @@ footer ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 0;
 }
 
 footer li+li {
